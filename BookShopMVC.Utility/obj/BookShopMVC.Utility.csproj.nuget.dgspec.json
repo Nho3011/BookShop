@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\BOOKSHOP\\BookShopMVC\\BookShopMVC.Utility\\BookShopMVC.Utility.csproj": {}
+    "E:\\ASP.NET\\DoAnHaoHao\\BookShop\\BookShopMVC.Utility\\BookShopMVC.Utility.csproj": {}
   },
   "projects": {
-    "C:\\BOOKSHOP\\BookShopMVC\\BookShopMVC.Utility\\BookShopMVC.Utility.csproj": {
+    "E:\\ASP.NET\\DoAnHaoHao\\BookShop\\BookShopMVC.Utility\\BookShopMVC.Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\BOOKSHOP\\BookShopMVC\\BookShopMVC.Utility\\BookShopMVC.Utility.csproj",
+        "projectUniqueName": "E:\\ASP.NET\\DoAnHaoHao\\BookShop\\BookShopMVC.Utility\\BookShopMVC.Utility.csproj",
         "projectName": "BookShopMVC.Utility",
-        "projectPath": "C:\\BOOKSHOP\\BookShopMVC\\BookShopMVC.Utility\\BookShopMVC.Utility.csproj",
-        "packagesPath": "C:\\Users\\84326\\.nuget\\packages\\",
-        "outputPath": "C:\\BOOKSHOP\\BookShopMVC\\BookShopMVC.Utility\\obj\\",
+        "projectPath": "E:\\ASP.NET\\DoAnHaoHao\\BookShop\\BookShopMVC.Utility\\BookShopMVC.Utility.csproj",
+        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+        "outputPath": "E:\\ASP.NET\\DoAnHaoHao\\BookShop\\BookShopMVC.Utility\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\84326\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,11 +39,22 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.12, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -55,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.414/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
